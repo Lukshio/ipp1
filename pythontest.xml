@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode23">
+	<instruction opcode="DEFVAR" order="1">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="READ" order="2">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="type">int</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="3">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="TYPE" order="4">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="var">GF@a</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="5">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="READ" order="6">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="type">bool</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="7">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="TYPE" order="8">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="var">GF@a</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="9">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="READ" order="10">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="type">string</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="11">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+	<instruction opcode="TYPE" order="12">
+		<arg1 type="var">GF@a</arg1>
+		<arg2 type="var">GF@a</arg2>
+	</instruction>
+	<instruction opcode="WRITE" order="13">
+		<arg1 type="var">GF@a</arg1>
+	</instruction>
+</program>
